@@ -1,0 +1,10 @@
+Initialize after init repo roms
+
+```
+git clone https://github.com/Mnskkyy/local_manifest.git -b infinity .repo/local_manifests/
+```
+
+And sync repo
+```
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```

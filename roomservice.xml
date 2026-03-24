@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="Mnzz-Prjkt"
+           fetch="https://github.com/Mnzz-Prjkt"
+
+  <remote name="Firmank123"
+          fetch="https://github.com/Firmank123"
+ 
+  <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="Mnzz-Prjkt" revision="infinity" />
+  <project path="vendor/xiaomi/rosemary" name="proprietary_vendor_xiaomi_rosemary" remote="Mnzz-Prjkt" revision="16.2" />
+  <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785-419" remote="Firmank123" revision="16-rebase" />
+
+</manifest>
