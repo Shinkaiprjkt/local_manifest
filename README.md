@@ -1,7 +1,7 @@
 Initialize after init repo roms
 
 ```
-git clone https://github.com/Mnskkyy/local_manifest.git -b infinity .repo/local_manifests/
+git clone https://github.com/Mnskkyy/local_manifest.git -b 16-QPR2 .repo/local_manifests/
 ```
 
 And sync repo
