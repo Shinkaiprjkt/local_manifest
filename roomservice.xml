@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="rosemary"
-           fetch="https://github.com/Mnskkyy"
-           revision="16.2" />
+           fetch="https://github.com/Mnskkyy" />
 
 
-  <project path="device/xiaomi/rosemary" name="device_xiaomi_rosemary" revision="16.2" remote="rosemary" />
+  <project path="device/xiaomi/rosemary" name="device_xiaomi_rosemary" revision="shinkai-16.2" remote="rosemary" />
   <project path="vendor/xiaomi/rosemary" name="vendor_xiaomi_rosemary" revision="16.2" remote="rosemary" />
 
   <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_rosemary" revision="16.2" remote="rosemary" />
